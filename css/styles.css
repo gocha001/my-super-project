@@ -278,10 +278,10 @@ line-height: 24px; /* 171.429% */
 
 @media screen and (max-width:850px) {
     .sidebar {
-        width: 220px;
+        width: 250px;
     }
     .my-photo {
-        width: 220px;
+        width: 250px;
     }
     .sidebar-content {
         padding: 20px;    
