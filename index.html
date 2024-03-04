@@ -2,10 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>This is an example project</h1>
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Main contens -->
+        <div class="main-contens">
+            <!-- My info -->
+            <div class="my-info">
+             <h2 class="my-profession">Jnior Front-End Developer</h2>
+
+            <h1 class="my-name">Igor Kondratuk</h1>
+            <p class="my-descr">Development, implementation and support of user interfaces for web 
+                applications and sites. Optimizing web applications and sites for performance, accessibility 
+                and usability. </p>
+
+            </div>
+            <!-- My projects -->
+            <div class="my-projects-container">
+                <h3 class="my-projects-title">Projects</h3>
+
+                <ol class="my-projects-list">
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href=" https://hellegoit.global/"target="_blank"> 
+                            https://hellegoit.global/</a>
+                        <span class="my-projects-item-tech">..........................[ HTML5, CSS3 ]
+                        </span>
+                        </li>
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href="https://cryptohub.p.goit.global/"target="_blank">
+                            https://cryptohub.p.goit.global/</a>
+                        <span class="my-projects-item-tech">........[ JavaScript  ] 
+                        </span>
+                        </li>
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href="https://kidslike.p.goit.global/"target="_blank">
+                            https://kidslike.p.goit.global/</a>
+                        <span class="my-projects-item-tech">...............[ React.js, Node.js ]
+                        </span>
+                        </li>
+                </ol>
+            </div>
+            <!-- Work experience -->
+            <div class="work-experience">
+                <h3 class="work-experience-title">Work experience</h3>
+                <!-- Company 1 -->
+                <div class="work-experience-container">
+                    <h4 class="work-experience-company">Junior receiver of goods 
+                        <span class="company-name">ATB market</span> </h4>
+                    <p class="work-experience-period">August 2021 - up to now   
+                        <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                    <ul class="work-experience-duties-list">
+                        <li class="work-experience-duties-item">
+                            Reception, unloading of goods.
+                        </li>
+                        <li class="work-experience-duties-item">
+                            Movement of goods in the warehouse and in the trading hall.
+                        </li>
+                        <li class="work-experience-duties-item">
+                            Display of goods on the shelves in the sales hall.
+                        </li>
+                        <li class="work-experience-duties-item">
+                            Disposal of containers and waste.
+                        </li>
+                    </ul>
+                </div>
+                <!-- Company 2 -->
+                <div class="work-experience-container">
+                    <h4 class="work-experience-company">Locksmith for repair and operation of underground gas pipelines
+                        <span class="company-name">The operator of the gas distribution system "Rivnegaz"</span></h4>
+                    <p class="work-experience-period">December 2019 - July 2020  
+                        <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                    <ul class="work-experience-duties-list">
+                        <li class="work-experience-duties-item">Inspection, checking of the operation of gas 
+                            pipelines and gas equipment.
+                        </li>
+                        <li class="work-experience-duties-item">Repair of gas pipelines and gas equipment.
+                        </li>
+                        <li class="work-experience-duties-item">Completing technical documentation.
+                        </li>
+                    </ul>
+                </div>
+                <!-- Company 3 -->
+                <div class="work-experience-container">
+                    <h4 class="work-experience-company">Shift foreman, operator of a rotary kiln
+                        <span class="company-name">Dickerhof cement Ukraine</span></h4>
+                    <p class="work-experience-period">April 1992 - November 2017
+                        <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                    <ul class="work-experience-duties-list">
+                        <li class="work-experience-duties-item">Management of shift personnel, issuing of shift 
+                            tasks, control of their execution, conducting briefings.
+                        </li>
+                        <li class="work-experience-duties-item">Management of the technological process of firing 
+                            Portland cement clinker and management of personnel involved in the technological 
+                            process.
+                        </li>
+                        <li class="work-experience-duties-item">Product quality control and maintenance of 
+                            technical documentation.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Education -->
+            <h3 class="education-title">Education</h3>
+           
+            <div>
+                <p class="education-university">Go IT Education</p>
+                <p class="education-faculti">Front-End Developer</p>
+                <p class="education-period">September 2023 - up to now  
+                    <span class="education-period-separator">|</span>   Ukraine</p>
+            </div>
+            <div>
+                <p class="education-university">Kyiv Polytechnic Institute</p>
+                <p class="education-faculti">Chemical and technological faculty, 
+                    chemical technology of refractory non-metallic and silicate materials.</p>
+                <p class="education-period">September 1984 - March 1992   
+                    <span class="education-period-separator">|</span>   Ukraine</p>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img class="my-photo" src="img/20161217_152412.jpg" alt="My pfoto" width="370">
+            <div class="sidebar-content">
+            <!-- Contacts -->
+            <div class="contacts-container">
+                <h3 class="contacts-title">Contacts</h3>
+                <p class="contacts-itea">
+                    <span class="contacts-type">C:</span> 
+                    <a class="contacts-link" href="tel:+380685696651">+380685696651</a>
+                </p>
+                <p class="contacts-itea">
+                    <span class="contacts-type">E:</span> 
+                    <a class="contacts-link" href="mailto:kalianichgocha@ukr.net">kalianichgocha@ukr.net</a>
+                </p>
+            </div>
+            <!-- Tech Skills -->
+            <div class="skills-container">
+                <h3 class="skills-title">Tech Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-list-item">HTML5</li>
+                    <li class="skills-list-item">CSS3</li>
+                    <li class="skills-list-item">GIT</li>
+                    <li class="skills-list-item">WebPack</li>
+                    <li class="skills-list-item">JavaScript</li>
+                    <li class="skills-list-item">React.js</li>
+                    <li class="skills-list-item">Node.js</li>
+                </ul>
+            </div>
+            <!-- Soft Skills -->
+            <div class="skills-container">
+                <h3 class="skills-title">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-list-item">Scrum</li>
+                    <li class="skills-list-item">Agile</li>
+                    <li class="skills-list-item">GTD</li>
+                    <li class="skills-list-item">Teamwork</li>
+                </ul>
+            </div>
+        </div>
+        </aside>
+    </div>
 </body>
 </html>
